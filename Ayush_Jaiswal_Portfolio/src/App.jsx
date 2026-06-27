@@ -16,7 +16,7 @@ export default function App() {
       <div className="bg-slate-950 text-slate-100 min-h-screen font-sans selection:bg-slate-800 selection:text-white antialiased overflow-x-hidden w-full">
         
         {/* Navigation header */}
-        <Navbar />
+        {/* <Navbar /> */}
 
         {/* Page Main Content Sections */}
         <main className="relative">
