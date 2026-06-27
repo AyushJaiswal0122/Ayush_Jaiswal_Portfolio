@@ -41,8 +41,8 @@ export default function Skills() {
         { name: 'MySQL', level: 'Expert', desc: 'Query performance optimization from 20 to 3 min.' },
         { name: 'Schema Design', level: 'Expert', desc: 'Normalisation, indexing strategies, constraints.' },
         { name: 'Query Optimization', level: 'Expert', desc: 'Execution plans, query re-writing.' },
-        { name: 'MongoDB', level: 'Intermediate', desc: 'Document schemas, Aggregations.' },
-        { name: 'Mongoose', level: 'Intermediate', desc: 'MongoDB ODM modeling, validator hooks.' },
+        { name: 'MongoDB', level: 'Expert', desc: 'Document schemas, complex aggregations, database modeling for CRM.' },
+        { name: 'Mongoose', level: 'Expert', desc: 'MongoDB ODM modeling, validator hooks, data schemas.' },
         { name: 'Oracle', level: 'Basic', desc: 'Basic queries and administrative commands.' }
       ]
     },
@@ -65,7 +65,8 @@ export default function Skills() {
         { name: 'Postman', level: 'Expert', desc: 'API endpoint collections, automated tests.' },
         { name: 'Linux', level: 'Intermediate', desc: 'Bash scripting, log checks, system commands.' },
         { name: 'Docker', level: 'Intermediate', desc: 'Containerizing developer workspace setups.' },
-        { name: 'VS Code', level: 'Expert', desc: 'IDE environment, keybindings, linting setup.' }
+        { name: 'VS Code', level: 'Expert', desc: 'IDE environment, keybindings, linting setup.' },
+        { name: 'Vercel & Render', level: 'Intermediate', desc: 'Deploying React clients and Node.js server APIs to cloud hosting.' }
       ]
     }
   ];

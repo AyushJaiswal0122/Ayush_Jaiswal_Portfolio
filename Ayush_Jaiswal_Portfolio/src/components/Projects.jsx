@@ -29,6 +29,26 @@ export default function Projects() {
       ]
     },
     {
+      title: 'CanovaCRM',
+      subtitle: 'Enterprise CRM Platform (MERN)',
+      desc: 'A complete Customer Relationship Management system featuring dedicated Administrator and Employee portals, real-time task allocation engines, and secure JWT-based authentication.',
+      github: 'https://github.com/AyushJaiswal0122/CanovaCRM',
+      demo: 'https://canova-crm-nine.vercel.app/',
+      tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST API', 'Vercel', 'Render'],
+      features: [
+        'Dedicated dashboards for Administrator control and Employee pipelines',
+        'Real-time task tracking, lead allocation systems, and status indicators',
+        'Secure backend REST API hosted on Render with encryption safeguards',
+        'Responsive client deployed on Vercel with clean glassmorphic interfaces'
+      ],
+      mockType: 'ui',
+      mockContent: [
+        { title: 'Open Leads', notes: 24, color: 'bg-indigo-500' },
+        { title: 'Closed Deals', notes: 125, color: 'bg-emerald-500' },
+        { title: 'Pending Tasks', notes: 8, color: 'bg-amber-500' }
+      ]
+    },
+    {
       title: 'PocketNotes',
       subtitle: 'React Application',
       desc: 'A responsive, interactive notes manager app featuring client-side persistence, group-based category isolation, and optimized rendering handlers for smooth performance.',
@@ -72,7 +92,7 @@ export default function Projects() {
         </div>
 
         {/* Projects Cards Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {projects.map((proj, idx) => (
             <div 
               key={idx}
