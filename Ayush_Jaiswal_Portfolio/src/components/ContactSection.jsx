@@ -93,7 +93,7 @@ export default function ContactSection() {
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center space-x-2 bg-slate-900/60 border border-slate-800 rounded-full px-3 py-1 text-xs text-slate-400 font-mono">
             <Mail size={12} className={theme.primary} />
-            <span>establish_connection.py</span>
+            <span>establish_connection.js</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
             Get In <span className={`bg-gradient-to-r bg-clip-text text-transparent ${theme.gradientText}`}>Touch</span>

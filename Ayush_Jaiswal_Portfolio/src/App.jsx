@@ -21,10 +21,10 @@ export default function App() {
         {/* Page Main Content Sections */}
         <main className="relative">
           <HeroSection />
-          <AcronymSection />
           <Experience />
           <Skills />
           <Projects />
+          <AcronymSection />
           <EducationCertifications />
           <ContactSection />
         </main>
