@@ -41,7 +41,7 @@ export default function Skills() {
         { name: 'MySQL', level: 'Intermediate', desc: 'Query performance optimization from 20 to 3 min.' },
         { name: 'Schema Design', level: 'Expert', desc: 'Normalisation, indexing strategies, constraints.' },
         { name: 'Query Optimization', level: 'Expert', desc: 'Execution plans, query re-writing.' },
-        { name: 'MongoDB', level: 'Expert', desc: 'Document schemas, complex aggregations, database modeling for CRM.' },
+        { name: 'MongoDB', level: 'Intermediate', desc: 'Document schemas, complex aggregations, database modeling for CRM.' },
         { name: 'Mongoose', level: 'Expert', desc: 'MongoDB ODM modeling, validator hooks, data schemas.' },
         { name: 'Oracle', level: 'Basic', desc: 'Basic queries and administrative commands.' }
       ]
